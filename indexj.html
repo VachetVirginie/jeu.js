@@ -156,7 +156,7 @@
             link.hp = link.hp + 15;
             yoshi.pts = yoshi.pts + 1;
             if (link.hp <= 0) {
-                alert("GAME OVER!")
+               window.location.href = "chargement2.html"
                 link.hp = 0;
             }
 
@@ -176,7 +176,7 @@
 
             link.hp = link.hp - 25;
             if (link.hp <= 0) {
-                alert("GAME OVER!")
+                window.location.href = "chargement2.html"
                 link.hp = 0;
             }
             display();
