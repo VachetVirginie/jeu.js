@@ -48,5 +48,12 @@ body {
 }
 
 #pts {
-    color: wheat;
+    color: black;
+    border: 2px solid black;
+    width: 15%;
+    top: 10px;
+    right: 5px;
+    position: absolute;
+    text-align: center;
+    padding-top: 13px;
 }

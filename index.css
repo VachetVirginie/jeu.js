@@ -139,10 +139,10 @@ h2 {
 .fee {
     display: none;
     position: absolute;
-    top: 130px;
+    top: 0px;
     left: 420px;
     width: 102px;
-    height: 44px;
+    height: 144px;
     animation: Test 3s infinite;
 }
 
